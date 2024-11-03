@@ -8,24 +8,175 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="page">
+<div class="page bg-dark">
   <div class="container espacement-container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg  border-bottom border-secondary">
       <div class="container-fluid d-flex justify-content-between">
-        <div>
-          <img src="images">
-          <a class="navbar-brand" href="#">Pricing example</a>
+        <div class="d-flex align-items-center">
+          <img src="images/bootstrap-logo.png" class="logoBnav">
+          <a class=" nav-link text-white" href="#">Pricing example</a>
         </div>
         <div class=" navbar" >
           <div class="navbar-nav">
-            <a class="nav-link tailleTextNav">Features</a>
-            <a class="nav-link tailleTextNav" href="#">Enterprise</a>
-            <a class="nav-link tailleTextNav" href="#">Support</a>
-            <a class="nav-link tailleTextNav" >Pricing</a>
+            <a class="nav-link tailleTextNav text-white" href="#">Features</a>
+            <a class="nav-link tailleTextNav text-white" href="#">Enterprise</a>
+            <a class="nav-link tailleTextNav text-white" href="#">Support</a>
+            <a class="nav-link tailleTextNav text-white" >Pricing</a>
           </div>
         </div>
       </div>
     </nav>
+    <div class="d-flex align-items-center flex-column text-center mt-4">
+      <p class="text-white fs-1">Pricing</p>
+      <p class="text-white-50">Quickly build an effective pricing table for you potential customers with this Bootstrap example. It's build with default Bootstrap components and itilities with little customization.</p>
+    </div>
+    <div class="row mt-3 ">
+      <div class="col-4 mb-3 ">
+        <div class="card border border-secondary">
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item couleurGrise border-bottom border-secondary justify-content-center d-flex text-white">Free</li>
+              <div class="list-group-item couleurGrise d-flex flex-column align-items-center">
+                <div class="d-flex justify-content-center">
+                  <p class="text-white fs-3">$O</p>
+                  <p class="text-white-50 fs-4">/mo</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <span class="text-white tailleTextNav mb-1">10 users included</span>
+                  <span class="text-white tailleTextNav mb-1">2 GB of storage</span>
+                  <span class="text-white tailleTextNav mb-1">Email support</span>
+                  <span class="text-white tailleTextNav mb-1">Help center access</span>
+                </div>
+                <button type="submit" class="btn text-primary border border-primary  mt-2">Sign up for free</button>
+
+              </div>
+            </ul>
+          </div>
+      </div>
+      <div class="col-4 mb-3 ">
+        <div class="card border border-secondary">
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item couleurGrise border-bottom border-secondary justify-content-center d-flex text-white">Free</li>
+              <div class="list-group-item couleurGrise d-flex flex-column align-items-center">
+                <div class="d-flex justify-content-center">
+                  <p class="text-white fs-3">$O</p>
+                  <p class="text-white-50 fs-4">/mo</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <span class="text-white tailleTextNav mb-1">10 users included</span>
+                  <span class="text-white tailleTextNav mb-1">2 GB of storage</span>
+                  <span class="text-white tailleTextNav mb-1">Email support</span>
+                  <span class="text-white tailleTextNav mb-1">Help center access</span>
+                </div>
+                <button type="submit" class="btn text-white  bg-primary  mt-2">Sign up for free</button>
+
+              </div>
+            </ul>
+          </div>
+      </div>
+      <div class="col-4 mb-3 ">
+        <div class="card border border-primary">
+            <ul class="list-group list-group-flush ">
+              <li class="list-group-item bg-primary border-bottom border-primary justify-content-center d-flex text-white">Free</li>
+              <div class="list-group-item couleurGrise d-flex flex-column align-items-center">
+                <div class="d-flex justify-content-center">
+                  <p class="text-white fs-3">$O</p>
+                  <p class="text-white-50 fs-4">/mo</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <span class="text-white tailleTextNav mb-1">10 users included</span>
+                  <span class="text-white tailleTextNav mb-1">2 GB of storage</span>
+                  <span class="text-white tailleTextNav mb-1">Email support</span>
+                  <span class="text-white tailleTextNav mb-1">Help center access</span>
+                </div>
+                <button type="submit" class="btn bg-primary text-white  mt-2">Sign up for free</button>
+
+              </div>
+            </ul>
+          </div>
+      </div>
+    </div>
+    <div class="border-bottom border-secondary pb-5">
+      <p class="text-white fs-3 text-center">Compare plans</p>
+      <table class="table border-secondary tailleTextNav">
+        <thead >
+          <tr >
+            <th scope="col" class="text-white bg-dark"></th>
+            <th scope="col" class="text-white bg-dark text-center">Free</th>
+            <th scope="col" class="text-white bg-dark text-center">Pro</th>
+            <th scope="col" class="text-white bg-dark text-center">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-white bg-dark">Public</th>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-white bg-dark">Private</th>
+            <td class="text-white bg-dark text-center"></td>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-white bg-dark">Permissions</th>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-white bg-dark">Sharing</th>
+            <td class="text-white bg-dark text-center"></td>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-white bg-dark">Unlimited members</th>
+            <td class="text-white bg-dark text-center"></td>
+            <td class="text-white bg-dark text-center">✓</td>
+            <td class="text-white bg-dark text-center">✓</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-white bg-dark">Extra security</th>
+            <td class="text-white bg-dark text-center"></td>
+            <td class="text-white bg-dark text-center"></td>
+            <td class="text-white bg-dark text-center">✓</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row mt-3 text-secondary ">
+      <div class="col-3 d-flex flex-column ps-4">
+        <img src="images/bootstrap-logo.png" class="logoBootstrap">
+        <span class="tailleTextNav text-white-50">© 2017-2024</span>
+      </div>
+      <div class="col-3 ps-5">
+        <span class=" text-white">Features</span>
+        <a href="" class="nav-link tailleTextNav">Cool stuff</a>
+        <a href="" class="nav-link tailleTextNav">Random features</a>
+        <a href="" class="nav-link tailleTextNav">Team features</a>
+        <a href="" class="nav-link tailleTextNav">Stuff for developers</a>
+        <a href="" class="nav-link tailleTextNav">Another one</a>
+        <a href="" class="nav-link tailleTextNav">Last time</a>
+      </div>
+      <div class="col-3 ps-5">
+        <span class="text-white">Resources</span>
+        <a href="" class="nav-link tailleTextNav">Resource</a>
+        <a href="" class="nav-link tailleTextNav">Resource name</a>
+        <a href="" class="nav-link tailleTextNav">Another resource</a>
+        <a href="" class="nav-link tailleTextNav">Final resource</a>
+
+      </div>
+      <div class="col-3 ps-5">
+        <span class="text-white">About</span>
+        <a href="" class="nav-link tailleTextNav">Team</a>
+        <a href="" class="nav-link tailleTextNav">Location</a>
+        <a href="" class="nav-link tailleTextNav">Privacy</a>
+        <a href="" class="nav-link tailleTextNav">Terms</a>
+
+      </div>
+    </div>
   </div>
 </div>
 
